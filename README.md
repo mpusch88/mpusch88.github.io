@@ -42,11 +42,3 @@ No MacOS automated builds are configured for now.
 ### Manual Building
 
 To build a Windows exe, run `npm run dist:win`. MacOS builds will come soon-ish.
-
-
-
-
-
-mpusch88.me
-
-## A page for testing things
