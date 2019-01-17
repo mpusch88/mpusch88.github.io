@@ -3,7 +3,6 @@
 	position: relative;
 }
 
-
 h1 {
 	color: #c9d0d4;
 	font-family: 'Helvetica Neue', sans-serif;
@@ -15,7 +14,6 @@ h1 {
 	border-bottom: double #555;
 }
 
-
 p {
 	color: #bbc3c8;
 	font-family: 'Verdana', sans-serif;
@@ -25,19 +23,14 @@ p {
 	margin: 0;
 }
 
-
 a {
 	color: #c64119;
-	border-bottom: 1px solid #c64119;
 	text-decoration: none;
 }
 
-
 a:hover {
 	color: #993213;
-	border-bottom: 1px solid #993213;
 }
-
 
 .date {
 	color: #bbc3c8;
@@ -51,4 +44,13 @@ a:hover {
 	padding: 10px 12px 8px;
 	position: absolute;
 	bottom: -36px;
+}
+
+.button {
+	background-color: #292929;
+	border: 1px cyan;
+	margin: 10px;
+	padding: 5px;
+	width: 200px;
+	text-align: center;
 }
