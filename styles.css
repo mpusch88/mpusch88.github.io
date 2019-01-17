@@ -46,7 +46,7 @@ a:hover {
 	bottom: -36px;
 }
 
-.button {
+button {
 	background-color: #292929;
 	border: 1px cyan;
 	margin: 10px;
