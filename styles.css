@@ -2,3 +2,12 @@
 	color: #F00;
 	font: Arial;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+div {
+	color: #000;
+}
