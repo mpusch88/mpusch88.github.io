@@ -1,7 +1,9 @@
 .test {
 	color: #F00;
 	font: Arial;
-	size: 50;
+	font-kerning: 100;
+	font-size: 35;
+	align-content: center;
 }
 
 img {
