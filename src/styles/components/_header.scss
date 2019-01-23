@@ -1,0 +1,23 @@
+.header-outer {
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: $goodlawyer-shadow;
+	border-style: solid;
+
+	.header-title {
+		color: $goodlawyer-blue;
+		font-size: $m-font;
+		font-weight: $regular;
+	}
+
+	.header-subtitle {
+		color: $goodlawyer-black;
+		font-size: $s-font;
+		font-weight: $light;
+	}
+
+	.header-buttons {
+		float: right;
+		margin-top: -45px;
+	}
+}

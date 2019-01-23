@@ -1,0 +1,55 @@
+.button-big-primary.ghost {
+	width: 100%;
+	background-color: transparent;
+	color: $goodlawyer-green;
+	border: solid 1px $goodlawyer-green !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: $light;
+	outline: none !important;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 16px;
+}
+
+.button-big-ghost {
+	color: $goodlawyer-green;
+	background-color: transparent;
+	border: solid 1px $goodlawyer-green;
+	border-radius: 3px;
+	line-height: 40px !important;
+	text-align: center;
+	min-width: 90px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: $light;
+	text-decoration: none !important;
+}
+
+.button-big-ghost.white {
+	color: white;
+	background-color: transparent;
+	border: solid 1px white;
+	border-radius: 3px;
+}
+
+.button-big-ghost:hover.white {
+	background-color: white;
+	color: $goodlawyer-green;
+	font-style: normal;
+}
+
+.button-big-ghost:hover {
+	background-color: $goodlawyer-green;
+	color: white;
+	font-style: normal;
+}
+
+.button-big-ghost:active,
+.button-big-ghost:focus,
+.button-big-ghost:link,
+.button-big-ghost:visited {
+	outline: none;
+}

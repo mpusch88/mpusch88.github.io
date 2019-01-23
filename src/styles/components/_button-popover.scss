@@ -1,0 +1,41 @@
+.popover {
+	z-index: 10000;
+}
+
+.popover-body {
+	padding: 0 !important;
+}
+
+.button-popover {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-weight: 200;
+	color: $goodlawyer-green;
+	display: block;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	width: 100%;
+}
+
+.button-popover.selected {
+	color: white;
+	background-color: $goodlawyer-green;
+}
+
+.button-popover:hover,
+.button-popover:active {
+	//color:$goodlawyer-green-active;
+	background-color: $goodlawyer-grey;
+	color: $goodlawyer-green;
+}
+
+.button-popover:hover.selected,
+.button-popover:active.selected {
+	color: white;
+	background-color: $goodlawyer-green;
+}

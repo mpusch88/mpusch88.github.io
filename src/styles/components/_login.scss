@@ -1,0 +1,51 @@
+.login-loader {
+	margin: 25%;
+}
+
+#outerLogin {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.login-container {
+	width: 30%;
+	max-width: 600px;
+	min-width: 300px;
+	margin: auto;
+}
+
+.login-content-row {
+	margin-top: $m-spacing;
+	margin-bottom: $m-spacing;
+}
+
+.login-title {
+	color: $goodlawyer-blue;
+	font-size: $l-font;
+	font-weight: $light;
+	display: block;
+}
+
+.login-sub-title {
+	color: $goodlawyer-black;
+	font-size: $m-font;
+	font-weight: $light;
+	display: block;
+}
+
+.login-signup-line {
+	color: $goodlawyer-black;
+	display: block;
+	font-size: $s-font;
+	font-weight: $regular;
+	text-align: center;
+}
+
+.login-signup-button {
+	color: $goodlawyer-green;
+	display: inline;
+	font-size: $s-font;
+	font-weight: $regular;
+	cursor: pointer;
+}

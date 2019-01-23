@@ -1,0 +1,99 @@
+.button-big-primary {
+	width: 100%;
+	background-color: $goodlawyer-green;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: $light;
+	outline: none !important;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 16px;
+}
+
+.button-big-primary.disabled {
+	background-color: $goodlawyer-empty !important;
+}
+
+.button-big-primary.disabled {
+	background-color: $goodlawyer-empty !important;
+}
+
+.button-small-primary {
+	background-color: $goodlawyer-green;
+	color: white;
+	font-weight: $light;
+	outline: none !important;
+	border: none;
+	margin: 5px;
+	min-width: 100px;
+	line-height: 40px !important;
+	border: solid 1px $goodlawyer-green;
+	position: relative;
+	font-size: 16px;
+}
+
+.button-small-secondary {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-weight: $light;
+	color: $goodlawyer-green;
+	display: inline-block;
+	text-decoration: none !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.button-small-light {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-weight: $light;
+	color: white;
+	display: inline-block;
+	text-decoration: none !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.button-big-primary:hover,
+.button-big-primary:active,
+.button-big-primary:focus,
+.button-small-primary:hover,
+.button-small-primary:active,
+.button-small-primary:focus {
+	background-color: $goodlawyer-green-active;
+	color: white;
+	outline: none;
+}
+
+.button-small-secondary:hover,
+.button-small-secondary:active,
+.button-small-secondary:visited,
+.button-small-secondary:focus {
+	color: $goodlawyer-green-active;
+	outline: none;
+}
+
+.button-small-secondary.white,
+.button-small-secondary:hover.white,
+.button-small-secondary:active.white,
+.button-small-secondary:visited.white,
+.button-small-secondary:focus.white {
+	color: white;
+}
+
+.button-small-light:hover,
+.button-small-light:active {
+	color: lightgrey;
+}
+
+// OVERFLOW //
+
+.button-small-primary.overflow {
+	overflow: hidden;
+}

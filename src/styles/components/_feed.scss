@@ -1,0 +1,54 @@
+.feed-item-container{
+    margin:auto;
+    margin-bottom:$m-spacing;
+    padding:10px;
+    background-color:white;
+    border:solid 1px $goodlawyer-shadow;
+}
+
+.feed-item-buttons{
+    text-align: right;
+    margin-top:20px;
+    position: relative;
+}
+
+.feed-item-header{
+    margin-bottom:20px;
+    position: relative;
+}
+
+.feed-item-body{
+    font-size:14px;
+    color:$goodlawyer-black;
+    font-weight: $light;
+    white-space: pre-line;
+}
+
+.feed-header-section{
+    display: block;
+    width:100%;
+    color:$goodlawyer-black;
+    font-weight:$light;
+}
+
+.feed-item-date{
+    font-size:12px;
+    color:$goodlawyer-black;
+    position: absolute;
+    left:0;
+    bottom:5px;
+}
+
+.feed-header-title{
+    font-size:$m-font;
+    font-weight: $light;
+    color:$goodlawyer-blue;
+    display: block;
+}
+
+.feed-header-name,.feed-header-city{
+    font-size:$s-font;
+    font-weight: $light;
+    display: block;
+    color:$goodlawyer-black;
+}

@@ -1,0 +1,106 @@
+.nav-side-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: $sidebar-width;
+    background-color: $goodlawyer-green;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+    background-image: url('/src/build/resources/SidebarBG.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:$breakpoint-m) {
+
+	/*CONTENT STYLES W/ SIDE NAV*/
+	.content-side-nav {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+}
+
+@media screen and (min-width:$breakpoint-m) {
+
+	/*CONTENT STYLES W/ SIDE NAV*/
+	.content-side-nav {
+		position: absolute;
+		left: 275px;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+}
+
+.sidebar-link{
+    font-size:$m-font;
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    padding:7px;
+    font-weight: $light;
+    position: relative;
+    cursor: pointer;
+    padding-left: $m-spacing;
+    padding-right: $m-spacing;
+}
+
+.sidebar-link.active,.sidebar-link:hover{
+    color:white;
+    background-color: rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.sidebar-link-dropdown-icon{
+    cursor: pointer;
+    position: absolute;
+    right:20px;
+    top:10px;
+}
+
+.sidebar-sub-container{
+    width:100%;
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    padding:7px;
+    padding-left:30px;
+    font-weight: $light;
+    cursor: pointer;
+    position: relative;
+}
+
+.sidebar-sub-container.active,.sidebar-sub-container:hover{
+    color:white;
+    background-color: rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.sidebar-sub-title{
+    display: block;
+    font-size:16px;
+    font-weight: $light;
+}
+
+.sidebar-sub-status{
+    font-size:10px;
+    color:$goodlawyer-yellow;
+    font-weight: $light;
+    vertical-align: middle;
+}
+
+.sidebar-sub-name{
+    display: block;
+    font-size:12px;
+    margin-top:-5px;
+    font-weight: $light;
+}

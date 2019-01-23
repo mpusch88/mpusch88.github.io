@@ -1,0 +1,69 @@
+$sidebar-width: 275px;
+
+$breakpoint-s:576px;
+$breakpoint-m:720px;
+$breakpoint-l:960px;
+$breakpoint-xl:1140px;
+
+//Colors
+$goodlawyer-green:#008e80;
+$goodlawyer-blue: #00306f;
+$goodlawyer-green-active:#00635d;
+$goodlawyer-green-alternate:#67dbce;
+$goodlawyer-pale:#dee8e4;
+$goodlawyer-black:#545454;
+$goodlawyer-shadow:rgba(0, 0, 0, 0.30);
+//$goodlawyer-blue:#2196f3;
+$error-color:#d32f2f;
+$goodlawyer-grey:#f5f5f5;
+$goodlawyer-red:#b71c1c;
+$goodlawyer-empty:#a0a0a0;
+$goodlawyer-yellow:#E3B505;
+
+$placeholder-color:#7c7575;
+
+//Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint:45rem;
+
+//Font Weight
+$light:300;
+$regular:400;
+$semi-bold:500;
+$bold:700;
+
+$box-shadow: 0 1px 8px rgba(0, 0, 0, 0.16),
+0 3px 6px rgba(0, 0, 0, 0.23);
+$box-shadow-alternate: 0 2px 15px rgba(0, 0, 0, 0.15),
+0 2px 15px rgba(0, 0, 0, 0.15);
+$box-shadow-bottom:0 8px 8px rgba(0, 0, 0, 0.16),
+0 6px 6px rgba(0, 0, 0, 0.23);
+
+$xs-font:14px;
+$s-font:16px;
+$sm-font:18px;
+$m-font:20px;
+$l-font:26px;
+$xl-font:32px;
+$hero-font:32px;
+$hero-line:40px;
+$hero-weight:300;
+
+$xs-spacing:5px;
+$s-spacing:10px;
+$m-spacing:20px;
+$l-spacing:30px;
+$xl-spacing:60px;
+
+//Page margins
+$s-margin:20px;
+$m-margin:60px;
+$l-margin:120px;
+
+$icon-small:16px;
+$icon-med:24px;
+$icon-large:32px;
+$icon-xlarge:80px;

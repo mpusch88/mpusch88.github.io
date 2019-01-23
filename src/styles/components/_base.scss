@@ -1,0 +1,78 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	//font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: $m-size;
+	background: white;
+}
+
+.sidebar-general {
+	position: absolute;
+}
+
+.header {
+	position: absolute;
+	margin-left: $sidebar-width;
+	width: calc(100% - #{$sidebar-width});
+}
+
+.main-content {
+	position: absolute;
+	margin-left: $sidebar-width;
+	margin-top: 65px;
+	width: calc(100% - #{$sidebar-width});
+}
+
+.input-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.input-default {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	border: solid 1px lightgray;
+	font-size: 14px;
+	font-weight: $light;
+}
+
+.default-text-label {
+	color: $goodlawyer-black;
+	font-size: 14px;
+	font-weight: $regular;
+	margin-bottom: 5px;
+	display: block;
+	text-align: left;
+}
+
+.goodlawyer-divider {
+	height: 1px;
+	width: 100%;
+	margin: auto;
+	margin-top: $s-spacing;
+	margin-bottom: $s-spacing;
+	border-bottom: solid 1px $goodlawyer-shadow;
+}
+
+.error-text {
+	color: $error-color;
+	font-size: $s-font;
+	font-weight: $light;
+	margin-top: 5px;
+	display: block;
+}
+
+.default-textarea {
+	width: 100%;
+	min-height: 100px;
+	outline: none;
+	padding: 10px;
+	border: solid 1px lightgray;
+	font-size: 14px;
+	font-weight: $light;
+}

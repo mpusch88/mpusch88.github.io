@@ -1,0 +1,65 @@
+.price-breakdown-container {
+	padding-left: 0 !important;
+}
+
+.price-breakdown-notax {
+	font-size: 14px;
+	color: $goodlawyer-blue;
+	vertical-align: middle;
+	font-weight: $regular;
+}
+
+.price-breakdown-row {
+	position: relative;
+	margin-top: $s-spacing;
+	margin-bottom: $s-spacing;
+}
+
+.price-breakdown-column {
+	display: inline-block;
+}
+
+.price-breakdown-column.left {
+	font-size: $s-font;
+	color: $goodlawyer-black;
+	font-weight: $light;
+}
+
+.price-breakdown-name {
+	font-size: $s-font;
+	color: $goodlawyer-black;
+	font-weight: $regular;
+	display: block;
+}
+
+.price-breakdown-desc {
+	font-size: $xs-font;
+	color: $goodlawyer-black;
+	font-weight: $light;
+	display: block;
+}
+
+.price-breakdown-column.right {
+	text-align: right;
+	font-size: $m-font;
+	color: $goodlawyer-black;
+	font-weight: $light;
+	padding-right: $l-spacing;
+}
+
+.price-breakdown-divider {
+	display: block;
+	margin: auto;
+}
+
+.price-breakdown-icon {
+	color: $goodlawyer-green;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.price-breakdown-total {
+	font-weight: $regular !important;
+}
