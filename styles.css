@@ -1,6 +1,7 @@
 body {
 	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: 'Major Mono Display', monospace;
 	font-size: 22px;
 }
@@ -12,6 +13,7 @@ header {
 
 h1 {
 	font-size: 150%;
+	color: #285854;
 }
 
 h2 {
@@ -21,4 +23,11 @@ h2 {
 footer {
 	font-size: 75%;
 	text-align: center;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	color: #333;
+	background-color: #333;
 }
