@@ -1,27 +1,17 @@
-.test {
-	color: #F00;
-	font: Arial;
-	font-kerning: 100;
-	font-size: 35;
+body {
+	font-family: 'Major Mono Display', monospace;
+	font-size: 22px;
+}
+
+header {
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
+  font-size: 140%;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	align-content: center;
+h1 {
+  font-size: 150%;
 }
 
-span {
-	color: #000;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 66%;
-	padding-top: 20px;
+h2 {
+  font-size: 130%  
 }
