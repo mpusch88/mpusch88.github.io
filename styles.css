@@ -6,13 +6,18 @@ body {
 
 header {
 	text-align: center;
-  font-size: 140%;
+	font-size: 140%;
 }
 
 h1 {
-  font-size: 150%;
+	font-size: 150%;
 }
 
 h2 {
-  font-size: 130%  
+	font-size: 130%;
+}
+
+footer {
+	font-size: 75%;
+	text-align: center;
 }
