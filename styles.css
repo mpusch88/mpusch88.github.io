@@ -1,4 +1,5 @@
 body {
+	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
 	font-family: 'Major Mono Display', monospace;
 	font-size: 22px;
 }
