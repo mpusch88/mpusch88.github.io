@@ -11,8 +11,7 @@ header {
 }
 
 h1 {
-	font-size: 150%;
-	color: #285854;
+	font-size: 120%;
 }
 
 h2 {
@@ -49,4 +48,42 @@ button {
 button:hover {
 	background-color: white;
 	color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #285854;
+	border-width: 5px;
+	padding: 8px;
+}
+
+header {
+	margin: 20px;
+}
+
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	background-color: #285854;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-family: 'Arhivo', monospace;
 }
