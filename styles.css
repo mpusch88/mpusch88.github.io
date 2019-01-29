@@ -2,8 +2,7 @@ body {
 	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	font-family: 'Major Mono Display', monospace;
-	font-size: 22px;
+	font-family: 'Arhivo', monospace;
 }
 
 header {
@@ -30,4 +29,24 @@ hr {
 	height: 5px;
 	color: #333;
 	background-color: #333;
+}
+
+button {
+	display: inline-block;
+	text-align: center;
+	background-color: #285854;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-family: 'Arhivo', monospace;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
 }
