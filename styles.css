@@ -87,3 +87,8 @@ a.button {
 	cursor: pointer;
 	font-family: 'Arhivo', monospace;
 }
+
+a.button:hover {
+	background-color: white;
+	color: black;
+}
