@@ -1,3 +1,8 @@
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
 body {
 	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
 	background-repeat: no-repeat;
@@ -12,48 +17,15 @@ p {
 
 header {
 	text-align: center;
-	font-size: 140%;
-}
-
-h1 {
-	font-size: 120%;
-}
-
-h2 {
-	font-size: 130%;
+	font-size: 111%;
+	text-emphasis: bold;
 }
 
 footer {
-	font-size: 75%;
+	font-size: 85%;
 	text-align: center;
-}
-
-hr {
-	border: none;
-	height: 5px;
-	color: #333;
-	background-color: #333;
-}
-
-button {
-	display: inline-block;
-	text-align: center;
-	background-color: #285854;
-	border: none;
-	color: white;
-	padding: 16px 32px;
-	font-size: 16px;
-	margin: 4px 2px;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.2s;
-	cursor: pointer;
-	font-family: 'Arhivo', monospace;
-}
-
-button:hover {
-	background-color: white;
-	color: black;
-}
+	font-style: italic;
+  }
 
 .container {
 	display: flex;
@@ -75,16 +47,12 @@ button:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: stretch;
-	align-items: stretch;
+	align-items: center;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-color: #285854;
 	border-width: 5px;
 	padding: 8px;
-}
-
-header {
-	margin: 20px;
 }
 
 a.button {
@@ -95,15 +63,36 @@ a.button {
 	border: none;
 	color: white;
 	padding: 16px 32px;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 4px 2px;
-	-webkit-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.2s;
 	transition-duration: 0.2s;
 	cursor: pointer;
 	font-family: 'Arhivo', monospace;
 }
 
 a.button:hover {
+	background-color: white;
+	color: black;
+}
+
+a.button-selected {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	background-color: #549b95;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-size: 18px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-family: 'Arhivo', monospace;
+}
+
+a.button-selected:hover {
 	background-color: white;
 	color: black;
 }
