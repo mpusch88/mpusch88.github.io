@@ -2,8 +2,12 @@ body {
 	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	font-family: 'Major Mono Display', monospace;
-	font-size: 22px;
+	font-family: 'Arhivo', monospace;
+	text-emphasis: bold;
+}
+
+p {
+	text-emphasis: bold;
 }
 
 header {
@@ -12,8 +16,7 @@ header {
 }
 
 h1 {
-	font-size: 150%;
-	color: #285854;
+	font-size: 120%;
 }
 
 h2 {
@@ -30,4 +33,77 @@ hr {
 	height: 5px;
 	color: #333;
 	background-color: #333;
+}
+
+button {
+	display: inline-block;
+	text-align: center;
+	background-color: #285854;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-family: 'Arhivo', monospace;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #285854;
+	border-width: 5px;
+	padding: 8px;
+}
+
+.button-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #285854;
+	border-width: 5px;
+	padding: 8px;
+}
+
+header {
+	margin: 20px;
+}
+
+a.button {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	background-color: #285854;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-family: 'Arhivo', monospace;
+}
+
+a.button:hover {
+	background-color: white;
+	color: black;
 }
