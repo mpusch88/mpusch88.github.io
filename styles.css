@@ -9,6 +9,11 @@ body {
 	background-attachment: fixed;
 	font-family: 'Arhivo', monospace;
 	text-emphasis: bold;
+	color: #FFFFFF;
+}
+
+.body-content {
+	margin: 5%;
 }
 
 p {
@@ -20,14 +25,14 @@ header {
 	font-size: 111%;
 	text-emphasis: bold;
 	color: #FFFFFF;
-  padding: 1px;
+	padding: 1px;
 }
 
 footer {
 	font-size: 85%;
 	text-align: center;
 	font-style: italic;
-  }
+}
 
 .container {
 	display: flex;
@@ -101,5 +106,5 @@ a.button-selected:hover {
 
 .header {
 	background-color: #000000;
-  margin: 20px;
+	margin: 20px;
 }
