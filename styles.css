@@ -3,6 +3,19 @@ html {
 	-webkit-text-size-adjust: 100%;
 }
 
+header {
+	text-align: center;
+	font-size: 111%;
+	text-emphasis: bold;
+	color: #FFFFFF;
+	padding: 1px;
+}
+
+.header {
+	background-color: #000000;
+	margin: 20px;
+}
+
 body {
 	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
 	background-repeat: no-repeat;
@@ -15,18 +28,7 @@ body {
 .body-content {
 	margin: 5%;
 	min-height: calc(100vh-70px);
-}
-
-p {
-	text-emphasis: bold;
-}
-
-header {
-	text-align: center;
-	font-size: 111%;
-	text-emphasis: bold;
-	color: #FFFFFF;
-	padding: 1px;
+	height: 100%;
 }
 
 footer {
@@ -34,6 +36,10 @@ footer {
 	text-align: center;
 	font-style: italic;
 	height: 50px;
+}
+
+p {
+	text-emphasis: bold;
 }
 
 .container {
@@ -106,18 +112,15 @@ a.button-selected:hover {
 	color: black;
 }
 
-.header {
-	background-color: #000000;
-	margin: 20px;
-}
-
 .sneak {
+	display: block;
+	margin: auto;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	overflow: hidden;
-	width: 115px;
+	width: 100%;
 	height: 0;
 	transition: .75s ease;
 }
@@ -128,16 +131,18 @@ a.button-selected:hover {
 
 .extra {
 	position: relative;
-	width: 66%;
+	width: 100%;
+	height: 100%;
 	color: orange;
-	min-height: 200px;
+	min-height: 144px;
+	text-align: center;
+	padding-bottom: 180px;
 }
 
 .image {
 	display: block;
-	width: 100%;
+	width: 115px;
 	height: auto;
-
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -145,4 +150,14 @@ a.button-selected:hover {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+.review-container {
+	font-style: italic;
+	font-size: 111%;
+	color: cyan;
+}
+
+.review {
+	text-decoration: springgreen;
 }
