@@ -20,6 +20,7 @@ header {
 	font-size: 111%;
 	text-emphasis: bold;
 	color: #FFFFFF;
+  padding: 1px;
 }
 
 footer {
@@ -47,13 +48,13 @@ footer {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-content: stretch;
+	align-content: space-between;
 	align-items: center;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-color: #285854;
 	border-width: 5px;
-	padding: 8px;
+	padding: 12px;
 }
 
 a.button {
@@ -99,6 +100,6 @@ a.button-selected:hover {
 }
 
 .header {
-	border-style: groove;
 	background-color: #000000;
+  margin: 20px;
 }
