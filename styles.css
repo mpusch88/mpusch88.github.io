@@ -128,6 +128,7 @@ a.button-selected:hover {
 	position: relative;
 	width: 66%;
 	color: orange;
+	height: 200px;
 }
 
 .image {
