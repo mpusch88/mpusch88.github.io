@@ -36,7 +36,6 @@ footer {
 
 .container {
 	display: flex;
-	position: relative;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -111,31 +110,28 @@ a.button-selected:hover {
 }
 
 .sneak {
-	display: none;
-}
-
-.extra:hover + .sneak{
-	display: block;
-}
-
-.extra {
-	color: orange;
-}
-
-.overlay {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
 	overflow: hidden;
-	width: 100%;
+	width: 115px;
 	height: 0;
-	transition: .5s ease;
-  }
+	transition: .75s ease;
+}
 
-  .image {
+.extra:hover .sneak {
+	height: 100%;
+}
+
+.extra {
+	position: relative;
+	width: 66%;
+	color: orange;
+}
+
+.image {
 	display: block;
 	width: 100%;
 	height: auto;
-  }
+}
