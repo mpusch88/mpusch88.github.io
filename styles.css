@@ -120,7 +120,7 @@ a.button-selected:hover {
 	left: 0;
 	right: 0;
 	overflow: hidden;
-	width: 100%;
+	width: 115px;
 	height: 0;
 	transition: .75s ease;
 }
@@ -141,14 +141,14 @@ a.button-selected:hover {
 
 .image {
 	display: block;
-	width: 115px;
+	width: 100%;
 	height: auto;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-40%, -40%);
+	-ms-transform: translate(-40%, -40%);
+	transform: translate(-40%, -40%);
 	text-align: center;
 }
 
