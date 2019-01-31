@@ -96,3 +96,8 @@ a.button-selected:hover {
 	background-color: white;
 	color: black;
 }
+
+.header {
+	border-style: groove;
+	background-color: #000000;
+}
