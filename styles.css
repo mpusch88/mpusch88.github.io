@@ -52,6 +52,7 @@ p {
 
 .about {
 	text-align: center;
+	align-content: center;
 	width: 60%;
 }
 
