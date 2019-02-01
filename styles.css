@@ -45,6 +45,11 @@ footer {
 	font-style: italic;
 }
 
+p {
+	text-align: center;
+	width: 60%;
+}
+
 .about {
 	text-align: center;
 	width: 60%;
