@@ -45,7 +45,7 @@ footer {
 	font-style: italic;
 }
 
-p {
+.about {
 	text-align: center;
 	width: 60%;
 }
@@ -125,6 +125,10 @@ a.button-selected:hover {
 	margin: 30px;
 	padding: 8px;
 	border: inset #285854;
+}
+
+.space {
+	min-height: 150px;
 }
 
 .sneak {
