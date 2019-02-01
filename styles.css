@@ -48,6 +48,7 @@ footer {
 p {
 	text-emphasis: bold;
 	text-align: center;
+	margin: 40px;
 }
 
 .container {
