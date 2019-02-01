@@ -198,3 +198,8 @@ li {
 ul {
 	text-align: center;
 }
+
+.why {
+	width: 55%;
+	border: 5px block springgreen;
+}
