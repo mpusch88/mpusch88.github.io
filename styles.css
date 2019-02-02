@@ -60,6 +60,8 @@ h3 {
 }
 
 .bg {
+	padding: auto;
+	margin: auto;
 	background-color: #00000088;
 	border: 3px inset #000000;
 }
