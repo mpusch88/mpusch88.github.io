@@ -159,6 +159,7 @@ a.button-selected:hover {
 
 .img {
 	padding: 25px;
+	padding-top: auto;
 }
 
 .image {
