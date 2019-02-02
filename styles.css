@@ -28,6 +28,7 @@ body {
 
 .body-content {
 	padding: auto;
+	padding-bottom: 25px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
