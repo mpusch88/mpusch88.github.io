@@ -178,12 +178,18 @@ a.button-selected:hover {
 
 .review-container {
 	font-style: italic;
-	font-size: 111%;
+	font-size: 101%;
 	color: cyan;
 }
 
 .review {
-	text-decoration: springgreen;
+	padding: 10px;
+	margin: auto;
+}
+
+.disclaimer {
+	text-decoration: lightgray;
+	font-size: 0.8em;
 }
 
 table {
