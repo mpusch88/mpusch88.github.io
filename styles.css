@@ -129,12 +129,6 @@ a.button-selected:hover {
 	color: black;
 }
 
-
-
-.space {
-	min-height: 150px;
-}
-
 .sneak {
 	margin: auto;
 	position: absolute;
@@ -176,7 +170,6 @@ a.button-selected:hover {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	text-align: center;
 }
 
 .review-container {
