@@ -65,6 +65,7 @@ h3 {
 .bg {
 	display: block;
 	padding: auto;
+	padding-bottom: 25px;
 	margin: auto;
 	text-align: center;
 	background-color: #00000066;
