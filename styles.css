@@ -61,11 +61,13 @@ h3 {
 }
 
 .bg {
-	padding: auto;
-	margin: auto;
+	text-align: center;
+
+	padding: 8px;
+	margin: 25px;
 	background-color: #00000088;
-	border: 3px inset #000000;
-	width: 66%;
+	border: 3px inset #000000cc;
+	width: 75%;
 }
 
 .about {
@@ -131,13 +133,7 @@ a.button-selected:hover {
 	color: black;
 }
 
-.intro {
-	text-align: center;
-	margin: 30px;
-	padding: 8px;
-	background: #00000088;
-	border: 3px inset #000000cc;
-}
+
 
 .space {
 	min-height: 150px;
