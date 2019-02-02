@@ -27,6 +27,7 @@ body {
 }
 
 .body-content {
+	padding: auto;
 	margin-top: 25px;
 	min-height: 100%;
 }
