@@ -134,47 +134,51 @@ a.button-selected:hover {
 	color: black;
 }
 
-.sneak {
-	margin: auto;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	overflow: hidden;
-	width: 115px;
-	height: 0;
-	transition: .75s ease;
-}
 
-.extra:hover .sneak {
-	height: 100%;
-}
 
-.extra {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	color: orange;
-	text-align: center;
-}
+	.sneak {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: hidden;
+		width: 115px;
+		height: 0;
+		transition: .75s ease;
+	}
+
+	.extra:hover .overlay {
+		height: 100%;
+	}
+
+	.extra {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		color: orange;
+		text-align: center;
+	}
+
+	.image {
+		display: block;
+		width: 100%;
+		height: auto;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+
 
 .img {
 	display: block;
 	margin: auto;
 	padding: 25px;
 	max-width: 30%;
-}
-
-.image {
-	display: block;
-	width: 100%;
-	height: auto;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 }
 
 .review-container {
@@ -237,7 +241,7 @@ ul {
 
 .why {
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin: 10px;
 	padding: 20px;
 	margin-left: 15%;
