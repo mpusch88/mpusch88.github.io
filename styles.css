@@ -191,6 +191,9 @@ a.button-selected:hover {
 }
 
 .disclaimer {
+	text-align: center;
+	padding: 25px;
+	margin: auto;
 	text-decoration: gray;
 	font-style: italic;
 }
