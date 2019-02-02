@@ -124,6 +124,11 @@ a.button-selected {
 	font-family: 'Arhivo', monospace;
 }
 
+.gap {
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
 a.button-selected:hover {
 	background-color: white;
 	color: black;
@@ -193,6 +198,7 @@ a.button-selected:hover {
 	margin: auto;
 	text-decoration: gray;
 	font-style: italic;
+	font-size: 0.8em;
 }
 
 table {
