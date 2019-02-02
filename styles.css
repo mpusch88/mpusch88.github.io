@@ -128,12 +128,6 @@ a.button-selected:hover {
 	color: black;
 }
 
-
-
-.space {
-	min-height: 150px;
-}
-
 .sneak {
 	margin: auto;
 	position: absolute;
