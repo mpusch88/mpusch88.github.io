@@ -79,8 +79,12 @@ h3 {
 	align-items: center;
 	border-top-style: solid;
 	border-color: #285854;
-	border-width: 5px;
-	padding: 12px;
+	border-width: 2px;
+	padding: 25px;
+}
+
+h1 {
+	padding: 25px;
 }
 
 a.button {
