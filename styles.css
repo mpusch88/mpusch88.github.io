@@ -27,8 +27,6 @@ body {
 }
 
 .body-content {
-	display: flex;
-	margin: auto;
 	margin-top: 25px;
 	min-height: 100%;
 }
