@@ -179,6 +179,10 @@ a.button-selected:hover {
 }
 
 .review-container {
+	display: block;
+	margin: auto;
+	padding: auto;
+	width: 60%;
 	font-style: italic;
 	font-size: 105%;
 	color: cyan;
