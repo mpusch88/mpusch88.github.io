@@ -134,6 +134,12 @@ a.button-selected:hover {
 	color: black;
 }
 
+.hello {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
 .img {
 	display: block;
 	margin: auto;
