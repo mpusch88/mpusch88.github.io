@@ -48,7 +48,8 @@ footer {
 p {
 	display: block;
 	margin: auto;
-	padding: auto;
+	padding: 25px;
+	padding-top: 0px;
 	text-align: center;
 	width: 66;
 }
