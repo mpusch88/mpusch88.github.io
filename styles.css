@@ -9,11 +9,11 @@ header {
 	text-emphasis: bold;
 	color: #FFFFFF;
 	padding: 1px;
-	border: inset #285854;
 }
 
 .header {
-	background-color: #000000bb;
+	background-color: #000000aa;
+	border: 3px inset #285854;
 	margin: 20px;
 }
 
@@ -70,20 +70,6 @@ h3 {
 	padding: 5px;
 }
 
-.container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: stretch;
-	align-items: stretch;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-color: #285854;
-	border-width: 5px;
-	padding: 8px;
-}
-
 .button-container {
 	display: flex;
 	flex-direction: row;
@@ -92,7 +78,6 @@ h3 {
 	align-content: space-between;
 	align-items: center;
 	border-top-style: solid;
-	border-bottom-style: solid;
 	border-color: #285854;
 	border-width: 5px;
 	padding: 12px;
