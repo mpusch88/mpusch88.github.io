@@ -48,8 +48,9 @@ footer {
 p {
 	display: block;
 	margin: auto;
+	padding: auto;
 	text-align: center;
-	width: 75%;
+	width: 66;
 }
 
 h1,
