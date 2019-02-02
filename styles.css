@@ -29,7 +29,7 @@ body {
 .body-content {
 	padding: auto;
 	margin-top: 25px;
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
 }
 
 footer {
@@ -238,9 +238,14 @@ ul {
 
 .why {
 	font-style: italic;
+	font-size: 1.5em;
 	margin: 10px;
 	padding: 20px;
 	margin-left: 15%;
+}
+
+.space {
+	height: 160px;
 }
 
 .why:first-of-type {
