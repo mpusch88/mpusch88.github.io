@@ -205,7 +205,8 @@ table {
 	display: table;
 	width: 90%;
 	margin: 0 auto;
-	width: 75%
+	width: 75%;
+	padding: 25px;
 }
 
 th {
