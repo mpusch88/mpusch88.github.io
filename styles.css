@@ -151,7 +151,7 @@ a.button-selected:hover {
 	}
 
 	.extra {
-
+		position: relative;
 	}
 
 	.image {
