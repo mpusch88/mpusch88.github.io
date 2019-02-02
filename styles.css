@@ -33,7 +33,8 @@ body {
 }
 
 footer {
-	padding: 15px;
+	padding-top: 25px;
+	margin: 10px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
@@ -42,6 +43,7 @@ footer {
 	text-align: center;
 	font-style: italic;
 }
+
 
 p {
 	display: block;
