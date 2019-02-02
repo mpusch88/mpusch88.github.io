@@ -247,6 +247,6 @@ ul {
 .table-spacer {
 	border: #00000000;
 	background: #00000000;
-	padding: auto;
-	margin: auto;
+	padding-left: 20%;
+	border-bottom: #00000000;
 }
