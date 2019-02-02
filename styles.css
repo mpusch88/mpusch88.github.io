@@ -59,6 +59,7 @@ h3 {
 
 .bg {
 	background-color: #00000088;
+	border: 3px inset #000000;
 }
 
 .about {
@@ -143,7 +144,8 @@ a.button-selected:hover {
 	text-align: center;
 	margin: 30px;
 	padding: 8px;
-	border: inset #285854;
+	background: #00000088;
+	border: 3px inset #000000cc;
 }
 
 .space {
@@ -209,7 +211,8 @@ th {
 	padding-bottom: 15px;
 	text-align: center;
 	background-color: #00000088;
-	border-bottom: 1px solid #00000088;
+	border: 3px inset #000000cc;
+	border-bottom: 1px solid #000000cc;
 }
 
 td {
@@ -229,7 +232,36 @@ ul {
 }
 
 .why {
-	text-align: center;
-	width: 80%;
-	border: 5px block springgreen;
+	font-style: italic;
+	margin: 10px;
+	padding: 20px;
+	margin-left: 15%;
+}
+
+.why:first-of-type {
+	margin-top: 30px;
+}
+
+.indent {
+	margin-left: 10%;
+}
+
+.indent+.indent {
+	margin-left: 12%;
+}
+
+.table-image {
+	border: #00000000;
+	background: #00000000;
+	padding: auto;
+	margin: auto;
+	max-width: 30%;
+	max-height: 30%;
+}
+
+.table-spacer {
+	border: #00000000;
+	background: #00000000;
+	padding: auto;
+	margin: auto;
 }
