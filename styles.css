@@ -27,7 +27,8 @@ body {
 }
 
 .body-content {
-	margin: 15%;
+	margin: auto;
+	margin-top: 25px;
 	min-height: 100%;
 }
 
