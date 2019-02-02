@@ -29,18 +29,19 @@ body {
 .body-content {
 	padding: auto;
 	margin-top: 25px;
+	min-height: 100%;
 }
 
 footer {
-	padding-top: 25px;
-	margin: 10px;
+	display: block;
+	padding: 10px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	width: 100;
 	font-size: 85%;
 	text-align: center;
 	font-style: italic;
+	background-color: #000000;
 }
 
 
