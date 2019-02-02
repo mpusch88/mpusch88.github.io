@@ -146,7 +146,7 @@ a.button-selected:hover {
 		transition: .75s ease;
 	}
 
-	.extra:hover .overlay {
+	.extra:hover .sneak {
 		height: 100%;
 	}
 
