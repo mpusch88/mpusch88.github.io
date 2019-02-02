@@ -159,8 +159,8 @@ a.button-selected:hover {
 
 .img {
 	display: block;
-	margin: 15px;
-	padding: 15px;
+	margin: auto;
+	padding: 25px;
 	max-width: 25%
 }
 
