@@ -51,6 +51,7 @@ p {
 	width: 75%;
 }
 
+h2,
 h3 {
 	text-align: center;
 	padding: 5px;
@@ -227,12 +228,12 @@ ul {
 	margin-top: 30px;
 }
 
-.indent {
-	margin-left: 10%;
+.why:last-of-type {
+	margin-bottom: 40px;
 }
 
-.indent+.indent {
-	margin-left: 12%;
+.indent {
+	margin-left: 10%;
 }
 
 .table-image {
@@ -252,4 +253,5 @@ ul {
 	padding: auto;
 	margin: auto;
 	border: none;
+	min-width: 30%;
 }
