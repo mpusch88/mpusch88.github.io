@@ -64,6 +64,7 @@ h3 {
 	margin: auto;
 	background-color: #00000088;
 	border: 3px inset #000000;
+	width: auto;
 }
 
 .about {
