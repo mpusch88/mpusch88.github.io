@@ -61,11 +61,11 @@ h3 {
 }
 
 .bg {
+	display: block;
+	padding: auto;
+	margin: auto;
 	text-align: center;
-
-	padding: 8px;
-	margin: 25px;
-	background-color: #00000088;
+	background-color: #00000066;
 	border: 3px inset #000000cc;
 	width: 75%;
 }
@@ -206,7 +206,7 @@ th {
 	padding: 10px;
 	padding-bottom: 15px;
 	text-align: center;
-	background-color: #00000088;
+	background-color: #00000066;
 	border: 3px inset #000000cc;
 	border-bottom: 1px solid #000000cc;
 }
@@ -214,7 +214,7 @@ th {
 td {
 	padding: 10px;
 	text-align: center;
-	border-bottom: 1px solid #00000088;
+	border-bottom: 1px solid #00000066;
 }
 
 li {
