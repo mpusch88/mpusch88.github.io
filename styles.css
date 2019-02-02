@@ -181,7 +181,7 @@ a.button-selected:hover {
 
 .review-container {
 	font-style: italic;
-	font-size: 101%;
+	font-size: 105%;
 	color: cyan;
 }
 
@@ -191,8 +191,8 @@ a.button-selected:hover {
 }
 
 .disclaimer {
-	text-decoration: lightgray;
-	font-size: 0.8em;
+	text-decoration: gray;
+	font-style: italic;
 }
 
 table {
