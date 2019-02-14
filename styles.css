@@ -76,7 +76,8 @@ td {
 }
 
 .calc-outer {
-	width: 600px;
+	width: 100px;
+	background-color: #52A8C1;
 	text-align: center;
 	align-content: center;
 }
