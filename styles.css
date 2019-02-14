@@ -45,7 +45,7 @@ h1 {
 
 .calc-display {
 	text-align: right;
-	padding: px;
+	padding: 15px;
 	margin: auto;
 	background-color: #0000000c;
 }
@@ -71,7 +71,6 @@ img {
 }
 
 .calc-outer {
-	width: 600px;
 	background-color: #52A8C1;
 	text-align: center;
 	align-content: center;
@@ -81,8 +80,7 @@ img {
 }
 
 @media screen {
-	.calc-outer {
+	.container {
 		width: 100%;
-		background-color: #334A52;
 	}
 }
