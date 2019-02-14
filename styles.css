@@ -25,19 +25,6 @@ body {
 	color: #FFFFFF;
 }
 
-footer {
-	padding: 2px;
-	padding: 10px;
-	width: 100%;
-	align-content: center;
-	position: fixed;
-	bottom: 0;
-	width: 100;
-	font-size: 85%;
-	text-align: center;
-	font-style: italic;
-}
-
 h1 {
 	text-align: center;
 	padding: 5px;
@@ -87,4 +74,9 @@ td {
 		width: 100%;
 		background-color: #334A52;
 	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
