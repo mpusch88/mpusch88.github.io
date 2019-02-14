@@ -69,6 +69,16 @@ td {
 	align-content: center;
 }
 
+calc-display {
+	padding: 15px;
+	margin: auto;
+}
+
+calc-buttons {
+	padding: 15px;
+	margin: auto;
+}
+
 @media screen {
 	.calc-outer {
 		width: 100%;
