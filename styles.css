@@ -39,6 +39,7 @@ h1 {
 	align-content: stretch;
 	align-items: stretch;
 	padding: 8px;
+	width: 600px;
 }
 
 calc-display {
