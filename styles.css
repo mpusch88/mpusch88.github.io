@@ -43,16 +43,16 @@ h1 {
 	width: 600px;
 }
 
-calc-display {
+.calc-display {
 	padding: px;
 	margin: auto;
 }
 
-button-row {
+.button-row {
 	padding: auto;
 }
 
-calc-button {
+.calc-button {
 	border-style: inset;
 	border-width: 10px;
 	border-color: #00000008;
