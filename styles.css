@@ -9,7 +9,6 @@ header {
 	text-emphasis: bold;
 	color: #FFFFFF;
 	padding: 1px;
-	border: inset #285854;
 }
 
 .header {
@@ -52,10 +51,6 @@ h1 {
 	justify-content: center;
 	align-content: stretch;
 	align-items: stretch;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-color: #285854;
-	border-width: 5px;
 	padding: 8px;
 }
 
@@ -78,4 +73,16 @@ td {
 	padding: 10px;
 	text-align: center;
 	border-bottom: 1px solid #00000088;
+}
+
+.calc-outer {
+	width: 600px;
+	text-align: center;
+	align-content: center;
+}
+
+@media screen {
+	.calc-outer {
+		width: 100%;
+	}
 }
