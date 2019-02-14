@@ -44,8 +44,10 @@ h1 {
 }
 
 .calc-display {
+	align-content: center;
 	padding: px;
 	margin: auto;
+	background-color: #0000000c;
 }
 
 .button-row {
