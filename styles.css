@@ -85,5 +85,6 @@ td {
 @media screen {
 	.calc-outer {
 		width: 100%;
+		background-color: #334A52;
 	}
 }
