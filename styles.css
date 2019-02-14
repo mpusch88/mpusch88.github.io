@@ -44,13 +44,18 @@ h1 {
 }
 
 .calc-display {
-	align-content: center;
+	text-align: right;
 	padding: px;
 	margin: auto;
 	background-color: #0000000c;
 }
 
 .button-row {
+	padding: auto;
+}
+
+.button-row:first-of-type {
+	align-content: right;
 	padding: auto;
 }
 
