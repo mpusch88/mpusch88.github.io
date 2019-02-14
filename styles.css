@@ -23,6 +23,7 @@ body {
 	font-family: 'Arhivo', monospace;
 	text-emphasis: bold;
 	color: #FFFFFF;
+	align-content: center;
 }
 
 h1 {
@@ -52,7 +53,9 @@ button-row {
 }
 
 calc-button {
-	background-color: #00000001
+	border-style: inset;
+	border-width: 10px;
+	border-color: #00000008;
 }
 
 img {
