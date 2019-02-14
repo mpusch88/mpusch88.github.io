@@ -24,6 +24,7 @@ body {
 	text-emphasis: bold;
 	color: #FFFFFF;
 	align-content: center;
+	text-align: center;
 }
 
 h1 {
@@ -33,7 +34,7 @@ h1 {
 }
 
 .container {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
