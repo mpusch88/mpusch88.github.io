@@ -17,7 +17,7 @@ header {
 }
 
 body {
-	background-image: linear-gradient(to right top, #500e11, #5f1b1d, #6e272a, #7e3337, #8d4044);
+	background-image: linear-gradient(to right, #96bcc9, #7bb4c0, #5dadb4, #3ea4a5, #179c92);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: 'Arhivo', monospace;
@@ -41,29 +41,6 @@ h1 {
 	padding: 8px;
 }
 
-table {
-	display: table;
-	width: 90%;
-	margin: 0 auto;
-	width: 75%
-}
-
-th {
-	padding: 10px;
-	padding-bottom: 15px;
-	text-align: center;
-	background-color: #00000088;
-	border-bottom: 1px solid #00000088;
-}
-
-td {
-	padding: 10px;
-	text-align: center;
-	border-bottom: 1px solid #00000088;
-}
-
-
-
 calc-display {
 	padding: px;
 	margin: auto;
@@ -74,9 +51,7 @@ button-row {
 }
 
 calc-button {
-	border-style: inset;
-	border-color: #000000;
-	border-width: 10px;
+	background-color: #00000001
 }
 
 img {
@@ -85,7 +60,7 @@ img {
 }
 
 .calc-outer {
-	width: 100px;
+	width: 600px;
 	background-color: #52A8C1;
 	text-align: center;
 	align-content: center;
