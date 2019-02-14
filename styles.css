@@ -65,13 +65,12 @@ td {
 
 
 calc-display {
-	padding: 15px;
+	padding: px;
 	margin: auto;
 }
 
 button-row {
-	padding: 15px;
-	margin: auto;
+	padding: auto;
 }
 
 calc-button {
