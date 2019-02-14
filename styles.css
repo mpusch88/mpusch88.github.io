@@ -67,6 +67,9 @@ td {
 	background-color: #52A8C1;
 	text-align: center;
 	align-content: center;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 5px;
 }
 
 calc-display {
@@ -74,9 +77,15 @@ calc-display {
 	margin: auto;
 }
 
-calc-buttons {
+button-row {
 	padding: 15px;
 	margin: auto;
+}
+
+calc-button {
+	border-style: inset;
+	border-color: #000000;
+	border-width: 3px;
 }
 
 @media screen {
