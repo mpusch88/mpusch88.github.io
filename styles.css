@@ -25,6 +25,13 @@ body {
 	width: 600px;
 }
 
+h1,
+h4 {
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+
 header {
 	text-align: center;
 	font-size: 111%;
@@ -68,11 +75,4 @@ header {
 	border-style: inset;
 	border-width: 10px;
 	border-color: #00000008;
-}
-
-h1,
-h4 {
-	text-align: center;
-	padding: 5px;
-	margin: 10px;
 }
