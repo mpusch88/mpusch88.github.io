@@ -95,7 +95,7 @@ dec.addEventListener('click', function() {
 });
 }
 
-if(zerp){
+if(zero){
 zero.addEventListener('click', function() {
 	display.push('0')
 	console.log(display)
@@ -116,38 +116,51 @@ two.addEventListener('click', function() {
 });
 }
 
-
+if(three){
 three.addEventListener('click', function() {
 	display.push('3')
 	console.log(display)
 });
+}
 
+if(four){
 four.addEventListener('click', function() {
 	display.push('4')
 	console.log(display)
 });
+}
 
+if(five){
 five.addEventListener('click', function() {
 	display.push('5')
 	console.log(display)
 });
+}
 
+if(six){
 six.addEventListener('click', function() {
 	display.push('6')
 	console.log(display)
 });
+}
 
+if(seven){
 seven.addEventListener('click', function() {
 	display.push('7')
 	console.log(display)
 });
+}
 
+if(eight){
 eight.addEventListener('click', function() {
 	display.push('8')
 	console.log(display)
 });
+}
 
+if(nine){
 nine.addEventListener('click', function() {
 	display.push('9')
 	console.log(display)
 });
+}
