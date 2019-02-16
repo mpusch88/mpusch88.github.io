@@ -25,10 +25,12 @@ current = []
 last = null
 operator = null
 
+if (leftPar) {
 	leftPar.addEventListener('click', function() {
 		display.push('(')
 		console.log(display)
 	});
+}
 
 if(rightPar){
 rightPar.addEventListener('click', function() {
