@@ -19,7 +19,9 @@ seven = document.getElementById('seven')
 eight = document.getElementById('eight')
 nine = document.getElementById('nine')
 
-display = []
+display = document.getElementById('display')
+
+current = []
 last = null
 operator = null
 
