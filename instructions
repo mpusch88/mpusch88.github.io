@@ -22,16 +22,6 @@ Your calculator should work in desktop mode and in mobile mode:
 	on desktop the calculator should be 600 pixels wide, and centered horizontally;
 	on mobile devices the calculator should be horizontally stretched across the whole screen.
 
-You are allowed to use the following technologies in your implementation:
-
-	plain HTML, CSS, JavaScript
-	SCSS, LESS, Bootstrap, JQuery, JQuery UI
-
-your calculator should not contain any server-side scripts
-if you plan to use any other technology, please ask your instructor for permission first.
-Your assignment must be publicly viewable. That means you must host it on a publicly available web server. 
-We discussed some free hosting choices in the class.
-
 Make sure your calculator works in Google Chrome (both in desktop mode and in Device Mode ).
 
 You do not need to handle keyboard events, only mouse clicks on the buttons.
@@ -51,6 +41,3 @@ Create a ZIP file called assignment2.zip that contains:
 		description of how to deploy your calculator
 
 Upload the assignment2.zip file to D2L dropbox.
-
-All assignments should include contact information, including full name, student ID and tutorial section, 
-at the very top of each file submitted.
