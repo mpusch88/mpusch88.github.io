@@ -25,70 +25,97 @@ current = []
 last = null
 operator = null
 
-leftPar.addEventListener('click', function() {
-	display.push('(')
-	console.log(display)
-});
+if (leftPar) {
+	leftPar.addEventListener('click', function() {
+		display.push('(')
+		console.log(display)
+	});
+}
 
+if(rightPar){
 rightPar.addEventListener('click', function() {
 	display.push(')')
 	console.log(display)
 });
+}
 
+if(add){
 add.addEventListener('click', function() {
 	display.push('+')
 	console.log(display)
 });
+}
 
+if(sub){
 sub.addEventListener('click', function() {
 	display.push('-')
 	console.log(display)
 });
+}
 
+if(mult){
 mult.addEventListener('click', function() {
 	display.push('*')
 	console.log(display)
 });
+}
 
+if(div){
 div.addEventListener('click', function() {
 	display.push('/')
 	console.log(display)
 });
+}
 
+if(del){
 del.addEventListener('click', function() {
 	display.pop()
 	console.log(display)
 });
+}
 
+if(equals){
 equals.addEventListener('click', function() {
 	display.push('=')
 	console.log(display)
 });
+}
 
+if(ans){
 ans.addEventListener('click', function() {
 	display.push('ANS')
 	console.log(display)
 });
+}
 
+if(dec){
 dec.addEventListener('click', function() {
 	display.push('.')
 	console.log(display)
 });
+}
 
+if(zerp){
 zero.addEventListener('click', function() {
 	display.push('0')
 	console.log(display)
 });
+}
 
+if(one){
 one.addEventListener('click', function() {
 	display.push('1')
 	console.log(display)
 });
+}
 
+if(two){
 two.addEventListener('click', function() {
 	display.push('2')
 	console.log(display)
 });
+}
+
 
 three.addEventListener('click', function() {
 	display.push('3')
