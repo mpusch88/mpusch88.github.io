@@ -34,15 +34,13 @@ header {
 }
 
 .calc-outer {
-    display: block;
-    margin: auto;
     background-color: #000000bb;
-    width: 600px;
 }
 
 .display {
     background-color: #11d3c3a9;
-    padding: 18px;
+    padding: auto;
+    margin: auto;
     color: #000000bb;
     font-size: 2em;
     text-align: right;
@@ -59,23 +57,22 @@ header {
     height: 100px;
     color: #FFFFFF;
     text-align: center;
-    max-width: 150px;
-    min-width: 150px;
+	width: 150px;
 }
 
 .spacer {
     height: 50px;
 }
 
-@media (max-width:600px) {
+@media (min-width:600px) {
     .calc-outer {
-    	display: flex;
-		margin: none;
-        width: 100%;
+        display: block;
+        margin: auto;
+        width: 600px;
     }
 
-	.calc-button {
-		min-width: 25%;
-		max-width: 25%;
-	}
+    .calc-button {
+        min-width: 150px;
+        max-width: 150px;
+    }
 }
