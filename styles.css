@@ -34,6 +34,8 @@ header {
 }
 
 .calc-outer {
+    display: block;
+    margin: auto;
     background-color: #000000bb;
     width: 600px;
 }
