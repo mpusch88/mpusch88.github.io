@@ -33,7 +33,10 @@ header {
 }
 
 .calc-outer {
-	width: 600px;
+	background-color: #000000bb;
+}
+
+.display {
 	background-color: #11d3c3a9;
 	padding: 15px;
 }
