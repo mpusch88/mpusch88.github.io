@@ -26,7 +26,7 @@ last = null
 operator = null
 
 if (leftPar) {
-	leftPar.addEventListener('click', function() {
+	leftPar.addEventListener("click", function() {
 		console.log(test)
 	});
 }
