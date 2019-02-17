@@ -31,3 +31,9 @@ header {
 .header {
 	background-color: #000000bb;
 }
+
+.calc-outer {
+	width: 600px;
+	background-color: #11d3c3a9;
+	padding: 15px;
+}
