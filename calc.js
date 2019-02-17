@@ -27,8 +27,7 @@ operator = null
 
 if (leftPar) {
 	leftPar.addEventListener('click', function() {
-		current.push('(')
-		console.log(current)
+		console.log(test)
 	});
 }
 
