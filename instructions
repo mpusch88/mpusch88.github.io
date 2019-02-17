@@ -27,8 +27,6 @@ Make sure your calculator works in Google Chrome (both in desktop mode and in De
 You do not need to handle keyboard events, only mouse clicks on the buttons.
 
 
-
-
 Submission details for this assignment:
 
 Create a ZIP file called assignment2.zip that contains:
