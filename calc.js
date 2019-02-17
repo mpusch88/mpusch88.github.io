@@ -28,137 +28,137 @@ op = null
 display.innerText = current
 
 if (leftPar) {
-	leftPar.addEventListener("click", function() {
-		display.innerText = current
-	});
+    leftPar.addEventListener("click", function() {
+        display.innerText = current
+    });
 }
 
 if (rightPar) {
-	rightPar.addEventListener('click', function() {
-		display.innerText = current
-	});
+    rightPar.addEventListener('click', function() {
+        display.innerText = current
+    });
 }
 
 if (add) {
-	add.addEventListener('click', function() {
-		display.innerText = current
-	});
+    add.addEventListener('click', function() {
+        display.innerText = current
+    });
 }
 
 if (sub) {
-	sub.addEventListener('click', function() {
-		display.innerText = current
-	});
+    sub.addEventListener('click', function() {
+        display.innerText = current
+    });
 }
 
 if (mult) {
-	mult.addEventListener('click', function() {
-		display.innerText = current
+    mult.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (div) {
-	div.addEventListener('click', function() {
-		display.innerText = current
+    div.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (del) {
-	del.addEventListener('click', function() {
-		display.innerText = current
+    del.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (equals) {
-	equals.addEventListener('click', function() {
-		display.innerText = current
+    equals.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (ans) {
-	ans.addEventListener('click', function() {
-		display.innerText = current
+    ans.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (dec) {
-	dec.addEventListener('click', function() {
-		display.innerText = current
+    dec.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (zero) {
-	zero.addEventListener('click', function() {
-		display.innerText = current
+    zero.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (one) {
-	one.addEventListener('click', function() {
-		display.innerText = current
+    one.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (two) {
-	two.addEventListener('click', function() {
-		display.innerText = current
+    two.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (three) {
-	three.addEventListener('click', function() {
-		display.innerText = current
+    three.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (four) {
-	four.addEventListener('click', function() {
-		display.innerText = current
+    four.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (five) {
-	five.addEventListener('click', function() {
-		display.innerText = current
+    five.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (six) {
-	six.addEventListener('click', function() {
-		display.innerText = current
+    six.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (seven) {
-	seven.addEventListener('click', function() {
-		display.innerText = current
+    seven.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (eight) {
-	eight.addEventListener('click', function() {
-		display.innerText = current
+    eight.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
 
 if (nine) {
-	nine.addEventListener('click', function() {
-		display.innerText = current
+    nine.addEventListener('click', function() {
+        display.innerText = current
 
-	});
+    });
 }
