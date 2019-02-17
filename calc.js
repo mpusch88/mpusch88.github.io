@@ -41,21 +41,37 @@ rightPar.addEventListener('click', function() {
 });
 
 add.addEventListener('click', function() {
+	if(flag)
+	{
+		flag = !flag
+	}
     current = append(current, '+')
     display.innerText = current
 });
 
 sub.addEventListener('click', function() {
+	if(flag)
+	{
+		flag = !flag
+	}
     current = append(current, '-')
     display.innerText = current
 });
 
 mult.addEventListener('click', function() {
+	if(flag)
+	{
+		flag = !flag
+	}
     current = append(current, '*')
     display.innerText = current
 });
 
 div.addEventListener('click', function() {
+	if(flag)
+	{
+		flag = !flag
+	}
     current = append(current, '/')
     display.innerText = current
 });
@@ -75,11 +91,16 @@ equals.addEventListener('click', function() {
 ans.addEventListener('click', function() {
     if (last != null) {
         current = append(current, last)
+        flag = !flag
     }
     display.innerText = current
 });
 
 dec.addEventListener('click', function() {
+	if(flag)
+	{
+		flag = !flag
+	}
     current = append(current, '.')
     display.innerText = current
 });
