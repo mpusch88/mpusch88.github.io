@@ -22,148 +22,143 @@ nine = document.getElementById('nine')
 display = document.getElementById('display')
 
 current = 0
-last = null
-operator = null
+ans = null
+op = null
 
 display.innerText = current
 
-
 if (leftPar) {
-  leftPar.addEventListener("click", function() {
-    current.push('(')
-    display.innerText = current.toString()
-  });
+	leftPar.addEventListener("click", function() {
+		display.innerText = current
+	});
 }
 
 if (rightPar) {
-  rightPar.addEventListener('click', function() {
-    current.push(')')
-    display.innerText = current
-  });
+	rightPar.addEventListener('click', function() {
+		display.innerText = current
+	});
 }
 
 if (add) {
-  add.addEventListener('click', function() {
-    current.push('+')
-    console.log(current)
-  });
+	add.addEventListener('click', function() {
+		display.innerText = current
+	});
 }
 
 if (sub) {
-  sub.addEventListener('click', function() {
-    current.push('-')
-    console.log(current)
-  });
+	sub.addEventListener('click', function() {
+		display.innerText = current
+	});
 }
 
 if (mult) {
-  mult.addEventListener('click', function() {
-    current.push('*')
-    console.log(current)
-  });
+	mult.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (div) {
-  div.addEventListener('click', function() {
-    current.push('/')
-    console.log(current)
-  });
+	div.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (del) {
-  del.addEventListener('click', function() {
-    current.pop()
-    console.log(current)
-  });
+	del.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (equals) {
-  equals.addEventListener('click', function() {
-    current.push('=')
-    console.log(current)
-  });
+	equals.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (ans) {
-  ans.addEventListener('click', function() {
-    current.push('ANS')
-    console.log(current)
-  });
+	ans.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (dec) {
-  dec.addEventListener('click', function() {
-    current.push('.')
-    console.log(current)
-  });
+	dec.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (zero) {
-  zero.addEventListener('click', function() {
-    current.push('0')
-    console.log(current)
-  });
+	zero.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (one) {
-  one.addEventListener('click', function() {
-    current.push('1')
-    console.log(current)
-  });
+	one.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (two) {
-  two.addEventListener('click', function() {
-    current.push('2')
-    console.log(current)
-  });
+	two.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (three) {
-  three.addEventListener('click', function() {
-    current.push('3')
-    console.log(current)
-  });
+	three.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (four) {
-  four.addEventListener('click', function() {
-    current.push('4')
-    console.log(current)
-  });
+	four.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (five) {
-  five.addEventListener('click', function() {
-    current.push('5')
-    console.log(current)
-  });
+	five.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (six) {
-  six.addEventListener('click', function() {
-    current.push('6')
-    console.log(current)
-  });
+	six.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (seven) {
-  seven.addEventListener('click', function() {
-    current.push('7')
-    console.log(current)
-  });
+	seven.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (eight) {
-  eight.addEventListener('click', function() {
-    current.push('8')
-    console.log(current)
-  });
+	eight.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
 
 if (nine) {
-  nine.addEventListener('click', function() {
-    current.push('9')
-    console.log(current)
-  });
+	nine.addEventListener('click', function() {
+		display.innerText = current
+
+	});
 }
