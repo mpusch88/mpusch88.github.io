@@ -4,7 +4,7 @@
 	"description": "ultrachat online",
 	"main": "chat.js",
 	"scripts": {
-		"test": "test"
+		"start": "node src/chat.js"
 	},
 	"repository": {
 		"type": "git",
@@ -16,5 +16,7 @@
 		"url": "https://github.com/mpusch88/mpusch88.github.io/issues"
 	},
 	"homepage": "https://github.com/mpusch88/mpusch88.github.io#readme",
-	"dependencies": {}
+	"dependencies": {
+		"express": "^4.15.2"
+	}
 }
