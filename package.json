@@ -1,0 +1,20 @@
+{
+	"name": "ultrachat",
+	"version": "1.0.0",
+	"description": "ultrachat online",
+	"main": "chat.js",
+	"scripts": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mpusch88/mpusch88.github.io.git"
+	},
+	"author": "Matt Pusch",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mpusch88/mpusch88.github.io/issues"
+	},
+	"homepage": "https://github.com/mpusch88/mpusch88.github.io#readme",
+	"dependencies": {}
+}
