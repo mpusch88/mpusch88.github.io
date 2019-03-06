@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mpusch88/ultrachatjs.git"
+		"url": "git+https://github.com/mpusch88/mpusch88.github.io.git"
 	},
 	"author": "Matt Pusch",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/mpusch88/ultrachatjs/issues"
+		"url": "https://github.com/mpusch88/mpusch88.github.io/issues"
 	},
-	"homepage": "https://github.com/mpusch88/ultrachatjs#readme",
+	"homepage": "https://github.com/mpusch88/mpusch88.github.io#readme",
 	"dependencies": {
 		"express": "^4.16.4"
 	}
