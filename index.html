@@ -7,18 +7,41 @@
 	<link rel="shortcut icon" type="image/x-icon" href="Resources/favicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="src/styles.css">
-	<title>Azure594 Test</title>
+	<title>Azure594 App</title>
 </head>
 
 <body>
-	<div class='container-fluid'>
-		<header class='header'>
-			<h1>Azure594 Test</h1>
+	<div class='form-outer'>
+		<div class='form-container'>
 			
-		</header>
-	</div>
+			<header class='titles'>
+				<h1>Azure594 Test</h1>
+				<span>Enter data below:</span>
+			</header>
 
-	<div class='spacer'></div>
+			<form>
+				<div class='input-group'>
+					<span class='default-text-label'>A</span>
+					<input type='text' name='a' class='input-default' />
+				</div>
+
+				<div class='input-group'>
+					<span class='default-text-label'>B</span>
+					<input class='input-default' type='text' name='b' />
+				</div>
+
+				
+				<div class='input-group'>
+					<span class='default-text-label'>C</span>
+					<input class='input-default' type='text' name='c' />
+				</div>
+
+				<input type="submit" value="Submit">
+
+			</form>
+
+		</div>
+	</div>
 
 	<script type="text/javascript" src="./src/script.js"></script>
 </body>
