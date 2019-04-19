@@ -47,7 +47,7 @@
 
 	<script type="text/javascript">
 	function sendData() {
-		const url = 'https://jsonplaceholder.typicode.com/posts';
+		const url = 'https://594.azurewebsites.net/api/HttpTrigger1?code=vBneUASvyiQVGKB3X5iDdWmsrXnT35bMZrqqI5Te764wqDM/QDeCIQ==';
 		var a = document.getElementById('a').value;
 		var b = document.getElementById('b').value;
 		var c = document.getElementById('c').value;
@@ -61,8 +61,8 @@
 					c
 				}
 			})
-			.then(data => console.log(data))
-			.catch(err => console.log(err))
+			.then(data => alert(data))
+			.catch(err => alert(err))
 	}
 
 	</script>
