@@ -4,23 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-	</script>
-
-	<script type="text/javascript">
-	$(document).ready(function() {
-
-		$('#submit-button').click(function() {
-
-			$.post('/jquery/submitData', // url
-				{ myData: 'This is my data.' }, // data to be submit
-				function(data, status, jqXHR) { // success callback
-					$('p').append('status: ' + status + ', data: ' + data);
-				});
-		});
-	});
-
-	</script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="Resources/favicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
@@ -39,17 +23,17 @@
 
 			<div class='input-group'>
 				<span class='input-label'>A</span>
-				<input class='input-field' type='text' name='a'>
+				<input class='input-field' type='text' id='a'>
 			</div>
 
 			<div class='input-group'>
 				<span class='input-label'>B</span>
-				<input class='input-field' type='text' name='b'>
+				<input class='input-field' type='text' id='b'>
 			</div>
 
 			<div class='input-group'>
 				<span class='input-label'>C</span>
-				<input class='input-field' type='text' name='c'>
+				<input class='input-field' type='text' id='c'>
 			</div>
 
 			<div>
@@ -61,6 +45,27 @@
 		</div>
 	</div>
 
+	<script type="text/javascript">
+	function sendData() {
+		const url = 'https://jsonplaceholder.typicode.com/posts';
+		var a = document.getElementById('a').value;
+		var b = document.getElementById('b').value;
+		var c = document.getElementById('c').value;
+
+		axios({
+				method: 'post',
+				url: url,
+				data: {
+					a,
+					b,
+					c
+				}
+			})
+			.then(data => console.log(data))
+			.catch(err => console.log(err))
+	}
+
+	</script>
 </body>
 
 </html>
