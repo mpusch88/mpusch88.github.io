@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="Resources/favicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
@@ -14,11 +13,12 @@
 <body>
 
 	<div class='box-outer'>
+
 		<div class='form-container'>
 
 			<div class='titles'>
 				<span class='title'>azure594</span>
-				<span class='subtitle'>PLEASE ENTER DATA BELOW</span>
+				<span class='subtitle'>ENTER NUMERICAL DATA BELOW</span>
 			</div>
 
 			<div class='input-group'>
@@ -43,29 +43,32 @@
 			</div>
 
 		</div>
+
+		<div class='display'>
+			<span id='out'></span>
+		</div>
+
 	</div>
 
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script type="text/javascript">
 	function sendData() {
-		const url = 'http://azure594app.azurewebsites.net/api/Function1';
+
+		const Http = new XMLHttpRequest();
 
 		var a = document.getElementById('a').value;
 		var b = document.getElementById('b').value;
 		var c = document.getElementById('c').value;
 
-		var data = {};
+		const url = 'https://azure594app.azurewebsites.net/api/Function1?a=' + a + '&b=' + b + '&c=' + c;
 
-		// data.a = a;
-		// data.b = b;
-		// data.c = c;
+		Http.open("GET", url);
+		Http.send();
 
-		axios.get(url, data)
-			.then(function(response) {
-				alert(response);
-			})
-			.catch(function(error) {
-				alert(error);
-			});
+		Http.onreadystatechange = (e) => {
+			document.getElementById('out').innerHTML += JSON.stringify(Http.responseText) + '\n';
+			console.log(JSON.stringify(Http.responseText));
+		}
 	}
 
 	</script>
