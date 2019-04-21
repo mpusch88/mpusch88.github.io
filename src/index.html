@@ -47,25 +47,25 @@
 
 	<script type="text/javascript">
 	function sendData() {
-		var client = new HttpClient();
-
+		const url = 'http://azure594app.azurewebsites.net/api/Function1';
 
 		var a = document.getElementById('a').value;
 		var b = document.getElementById('b').value;
 		var c = document.getElementById('c').value;
-		const url = 'https://azure594app.azurewebsites.net/api/Function1';
 
-		axios({
-				method: 'post',
-				url: url,
-				data: {
-					a: '1',
-					b: '2',
-					c: '3'
-				}
+		var data = {};
+
+		// data.a = a;
+		// data.b = b;
+		// data.c = c;
+
+		axios.get(url, data)
+			.then(function(response) {
+				alert(response);
 			})
-			.then(data => alert(data))
-			.catch(err => alert(err))
+			.catch(function(error) {
+				alert(error);
+			});
 	}
 
 	</script>
