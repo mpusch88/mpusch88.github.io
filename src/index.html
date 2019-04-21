@@ -66,7 +66,7 @@
 		Http.send();
 
 		Http.onreadystatechange = (e) => {
-			document.getElementById('out').innerHTML += JSON.stringify(Http.responseText) + '\n';
+			document.getElementById('out').innerHTML = JSON.stringify(Http.responseText) + '\n';
 			console.log(JSON.stringify(Http.responseText));
 		}
 	}
